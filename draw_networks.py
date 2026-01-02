@@ -8,4 +8,4 @@ model = VGGFace(model='resnet50')
 plot_model(model, to_file='resnet50.png', show_shapes=True)
 
 model = VGGFace(model='senet50')
-plot_model(model, to_file='senet50.png' ,show_shapes=True)
+plot_model(model, to_file='senet50.png', show_shapes=True)
