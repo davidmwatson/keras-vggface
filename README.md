@@ -8,13 +8,6 @@ Oxford VGGFace  Implementation using Keras Functional Framework v2+
 - When you use it for the first time , weights are downloaded and stored in ~/.keras/models/vggface folder.
 - If you don't know where to start check the [blog posts](https://github.com/rcmalli/keras-vggface#projects--blog-posts) that are using this library.
 
-~~~bash
-# Most Recent One (Suggested)
-pip install git+https://github.com/rcmalli/keras-vggface.git
-# Release Version
-pip install keras_vggface
-~~~
-
 
 ### Library Versions
 
@@ -43,7 +36,7 @@ vggface = VGGFace(model='senet50')
 
 
 #### Feature Extraction
- 
+
 - Convolution Features
 
     ```python
@@ -162,7 +155,7 @@ vggface = VGGFace(model='senet50')
 
 - [Related Paper 2](http://www.robots.ox.ac.uk/~vgg/publications/2018/Cao18/cao18.pdf)
 
-### Licence 
+### Licence
 
 - Check Oxford Webpage for the license of the original models.
 
@@ -177,4 +170,3 @@ If you find this project useful, please include reference link in your work. You
 - [How to Perform Face Recognition With VGGFace2 in Keras](https://machinelearningmastery.com/how-to-perform-face-recognition-with-vggface2-convolutional-neural-network-in-keras/)
 
 - [An extremely small FaceRecog project for extreme beginners, and a few thoughts on the future](https://kevincodeidea.wordpress.com/2020/01/14/an-extremely-small-facerecog-project-for-extreme-beginners-and-a-few-thoughts-on-future-part-ii-transfer-learning-and-keras/)
-
